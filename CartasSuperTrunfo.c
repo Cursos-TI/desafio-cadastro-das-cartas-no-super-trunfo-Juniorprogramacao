@@ -9,14 +9,31 @@
 int main() {
  //Adicionar Variáveis
  
-    char estado1, estado2 [50]; //c1 representa carta 1 c2 representa a carta 2
-    char codigo1, codigo2 [50];
-    char cidade1, cidade2 [60];
+    char estado1[50], estado2[50]; //c1 representa carta 1 c2 representa a carta 2
+    char codigo1[50], codigo2[50];
+    char cidade1[60], cidade2[60];
     
-    int populacao1, populacao2;
-    int pontosturisticos1, pontosturisticos2;
-    float area1, area2;
-    float pib1, pib2;
+    int populacao1[13], populacao2[13];
+    int pontosturisticos1[10], pontosturisticos2[10];
+    float area1[20], area2[20];
+    float pib1[20], pib2[20];
+
+    printf ("Digite o nome do Estado\n");
+    scanf  ("%s", &estado1);
+
+    printf ("Digite o código da cidade\n");
+    scanf  ("%s", &codigo1);
+
+    printf ("Digite o nome da cidade\n");
+    scanf  ("%s", &cidade1);
+
+    printf ("Digite a população da cidade\n");
+    scanf  ("%d", &populacao1);
+
+    printf ("Digite o número de pontos turísticos\n");
+    scanf  ("%d", &pontosturisticos1);
+
+    
   
 
 
