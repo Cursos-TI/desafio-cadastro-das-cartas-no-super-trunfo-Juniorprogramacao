@@ -2,13 +2,18 @@
 
 // Desafio Super Trunfo - Países
 // Tema 1 - Cadastro das Cartas
+// Este código inicial serve como base para o desenvolvimento do sistema de cadastro de cartas de cidades.
+// Siga os comentários para implementar cada parte do desafio.
+//Teste larissa
 
 int main() {
  
-    
-    //Adicionar Variáveis - O numero na frente identifica qual é a carta, exemplo: Estado1 - É carta 1
+    // Sugestão: Defina variáveis separadas para cada atributo da cidade.
+    // Exemplos de atributos: código da cidade, nome, população, área, PIB, número de pontos turísticos
  
-    char estado1[50], estado2[50]; 
+    //Adicionar Variáveis
+ 
+    char estado1[10], estado2[10]; //c1 representa carta 1 c2 representa a carta 2
     char codigo1[50], codigo2[50];
     char cidade1[60], cidade2[60];
     
@@ -43,28 +48,6 @@ int main() {
     scanf  ("%d", &pib1);
 
 
-    // Carta 2
-
-    printf ("Digite o Estado que é uma letra de 'A' a 'H'\n");
-    scanf  ("%s", &estado2);
-
-    printf ("Digite o código da cidade\n");
-    scanf  ("%s", &codigo2);
-
-    printf ("Digite o nome da cidade\n");
-    scanf  ("%s", &cidade2);
-
-    printf ("Digite a população da cidade\n");
-    scanf  ("%d", &populacao2);
-
-    printf ("Digite o número de pontos turísticos\n");
-    scanf  ("%d", &pontosturisticos2);
-
-    printf ("Digite a área\n");
-    scanf  ("%f", &area2);
-
-    printf ("Digite o Pib\n");
-    scanf  ("%d", &pib2);
 
     
     // Exibição dos Dados das Cartas:
@@ -80,18 +63,13 @@ int main() {
     printf ("Área: %f\n", area1);
     printf ("Pib: %f\n", pib1);
 
-    // Exibição carta 2
-
-    printf ("Carta 1\n");
-    printf ("Estado: %s\n", estado2);
-    printf ("Código: %d\n", codigo2);
-    printf ("Cidade: %s\n", cidade2);
-    printf ("População: %d\n", populacao2);
-    printf ("Pontos Turísticos: %s\n", pontosturisticos2);
-    printf ("Área: %f\n", area2);
-    printf ("Pib: %f\n", pib2);
 
     
+    // Sugestão: Utilize a função printf para exibir as informações das cartas cadastradas de forma clara e organizada.
+    // Exiba os valores inseridos para cada atributo da cidade, um por linha.
+
+   
+
 
     return 0;
 }
